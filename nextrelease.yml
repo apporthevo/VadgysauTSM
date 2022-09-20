@@ -19,11 +19,6 @@ jobs:
         with:
           fetch-depth: 0
 
-      - name: Use PNPM
-        uses: pnpm/action-setup@v2.2.2
-        with:
-          version: 7.2.1
-
       - name: Use Node.js 16
         uses: actions/setup-node@v3
         with:
